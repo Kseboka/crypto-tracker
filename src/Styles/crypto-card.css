@@ -1,0 +1,36 @@
+.card{
+    width: 350px;
+    border-radius: 40px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.card:hover{
+    background-color: white;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 4rem;
+    border-radius: 5px;
+}
+
+.card-info{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 20px 40px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
+}
